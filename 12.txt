@@ -1,0 +1,43 @@
+<!Doctype Html>  
+<Html>     
+<Head> 
+<Title>     
+Add the Background image using Internal Style sheet  
+</Title> 
+<style>  
+body  
+{  
+background-image:url(".jpg");  
+}  
+</style>  
+</Head>  
+<Body> 
+<marquee width="100%" behavior="scroll" bgcolor="pink">  
+welcome  
+</marquee>
+<br>ikkda daka vachav ni andhamaina kalatho kindhaki chusthe <br>
+<br>options kanapadathay ni mrudhuvayna chethulatho click chey<br>
+<br>                                   -anonymous<br>
+<p>    
+<div style = "position:relative; left:750px; top:600px;font-size:25px;">
+to enter into the heart click here
+<button onclick="window.location.href ='9.html';">enter</button>  
+</div>
+<br>
+Click Here  
+<br> 
+<br>
+<div style = "position:relative; left:800px; top:335px;font-size:15px;">
+         పది నెలలు మోసి కన్న మీ అమ్మకు నువ్వు సొంతం అయితే
+</div>
+<div style = "position:relative; left:850px; top:355px;font-size:15px;">
+	 ఇన్నాళ్ళుగా మనసులో మోస్తున్న నాకు కూడా నువ్వు సొంతమే
+</div>
+<div style = "position:relative; left:900px; top:395px;font-size:25px;">
+        -anonymous
+</div>                                                                                                                     
+<br>
+</button>
+<img src="111.jpg" alt="Example Image" width="700" height="500">  
+</Body>
+</Html>  

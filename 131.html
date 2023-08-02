@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <style>
+      #moving-image {
+        position: relative;
+        animation: move 17s linear forwards;
+      }
+      
+      @keyframes move {
+        from {
+          right: 0px;
+        }
+        to {
+          right: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <img id="moving-image" src="2.jpg" alt="Moving Image">
+    
+    <script>
+      setTimeout(function() {
+        var image = document.getElementById("moving-image");
+        image.style.animationPlayState = "paused";
+      }, 5000);
+    </script>
+  </body>
+</html>

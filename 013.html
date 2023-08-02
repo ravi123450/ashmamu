@@ -1,0 +1,65 @@
+<!Doctype Html>  
+<Html>     
+<Head> 
+<Title>     
+Add the Background image using Internal Style sheet  
+</Title> 
+<style>  
+body  
+{  
+background-image:url("02.jpg");  
+}  
+</style>
+<style>
+      #moving-image {
+        position: relative;
+        animation: move 17s linear forwards;
+      }
+      
+      @keyframes move {
+        from {
+          right: 0px;
+        }
+        to {
+          right: 100%;
+        }
+      }
+    </style>  
+</Head>  
+<Body>
+<audio controls autoplay loop>
+  <source src="125.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<img id="moving-image" src="002.jpg" alt="Moving Image">
+    
+    <script>
+      setTimeout(function() {
+        var image = document.getElementById("moving-image");
+        image.style.animationPlayState = "paused";
+      }, 5000);
+    </script>
+
+ <div style = "position:relative; left:750px; top:600px;font-size:25px;">
+enter into the heart
+<button onclick="window.location.href ='014.html';">next</button>  
+</div>
+<br>
+Click Here  
+<br> 
+<br>
+<div style = "position:relative; left:800px; top:335px;font-size:15px;">
+         మనం ఒకేసారి ప్రేమలో పడతాం అని అందరూ అంటారు,కానీ అది తప్పు 
+</div>
+<div style = "position:relative; left:850px; top:355px;font-size:15px;">
+	 ఎందుకంటే నిన్ను చూసిన ప్రతిసారీ నేను ప్రేమలో పడుతున్నాను
+
+</div>
+<div style = "position:relative; left:900px; top:395px;font-size:25px;">
+        -anonymous
+</div>                                                                                                                     
+<br>
+</button>
+#<img src="002.jpg" alt="Example Image" width="700" height="800">  
+</Body>
+</Html>  

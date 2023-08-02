@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Image Slideshow</title>
+<style>
+      img {
+        width: 100x;
+        height: 100x;
+      }
+    </style>
+<style>  
+body  
+{  
+background-image:url("1.jpg");  
+}  
+</style>  
+
+    <script>
+      let images = ['9.html', '2.jpg', '3.jpg'];
+      let currentImage = 0;
+      function changeImage() {
+        document.getElementById("slideshow").src = images[currentImage];
+        currentImage = (currentImage + 1) % images.length;
+      }
+    </script>
+  </head>
+  <body>
+    <img id="slideshow" src="image1.jpg" alt="Image Slideshow">
+    <br><br>
+    <button onclick="changeImage()">Next</button>
+  </body>
+</html>
